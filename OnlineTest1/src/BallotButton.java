@@ -6,7 +6,9 @@ public class BallotButton implements Button {
 	public Boolean click() {
 		// TODO Auto-generated method stub
 		clickStatus = true;
-		return true;
+		return clickStatus;
 	}
+	
+	
 
 }

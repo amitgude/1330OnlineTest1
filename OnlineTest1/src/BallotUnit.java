@@ -3,6 +3,10 @@ public class BallotUnit {
 	// status of the ballot power lamp
 	private Boolean Onstatus;
 	
+	Lamp readyLamp = new ReadyLamp();
+	Lamp candidateLamp = new CandidateLamp();
+	Button candidateButton = new CandidateButton();
+	
 	// Ballot constructor
 	public BallotUnit(){
 		Onstatus = true;
@@ -18,5 +22,5 @@ public class BallotUnit {
 		this.Onstatus = status;
 	}
 	
-
+	
 }

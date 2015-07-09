@@ -26,7 +26,7 @@ public class ControlUnit {
 	public void clickBallotButton(){
 		
 		if (ballotButton.click()){
-			
+			busyLamp.lighton();
 		}
 	}
 
