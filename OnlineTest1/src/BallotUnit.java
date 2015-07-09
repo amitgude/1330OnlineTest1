@@ -5,7 +5,17 @@ public class BallotUnit {
 	
 	// Ballot constructor
 	public BallotUnit(){
-		status = false;
+		status = true;
+	}
+	
+	// getter method for status
+	public Boolean getStatus() {
+		return status;
+	}
+	
+	// setter method for status
+	public void setStatus(Boolean status) {
+		this.status = status;
 	}
 	
 
