@@ -3,7 +3,7 @@ public class Context {
 	private State state;
 
 	   public Context(){
-	      state = null;
+	     this.state = null;
 	   }
 
 	   public void setState(State state){
